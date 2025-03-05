@@ -1,0 +1,36 @@
+
+import React, { useEffect } from 'react';
+import Navbar from '@/components/Navbar';
+import Hero from '@/components/Hero';
+import About from '@/components/About';
+import HowToBuy from '@/components/HowToBuy';
+import Roadmap from '@/components/Roadmap';
+import Tokenomics from '@/components/Tokenomics';
+import Community from '@/components/Community';
+import CrossMarquee from '@/components/CrossMarquee';
+
+const Index = () => {
+  useEffect(() => {
+    // Add page load animation
+    document.body.classList.add('animate-scale-up');
+    
+    return () => {
+      document.body.classList.remove('animate-scale-up');
+    };
+  }, []);
+
+  return (
+    <div className="overflow-x-hidden bg-ben10-background">
+      <Navbar />
+      <Hero />
+      <About />
+      <HowToBuy />
+      <Roadmap />
+      <Tokenomics />
+      <CrossMarquee />
+      <Community />
+    </div>
+  );
+};
+
+export default Index;
