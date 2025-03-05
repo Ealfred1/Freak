@@ -11,7 +11,7 @@ const Community = () => {
            backgroundPosition: 'center'
          }}>
       <div className="container mx-auto px-4">
-        <h2 className="text-6xl font-['Rubik_Dirt'] text-white text-center mb-12 drop-shadow-[4px_4px_0_rgba(0,0,0,0.3)]">
+        <h2 className="text-6xl font2 text-white text-center mb-12 drop-shadow-[4px_4px_0_rgba(0,0,0,0.3)]">
           JOIN THE FREAK COMMUNITY
         </h2>
         

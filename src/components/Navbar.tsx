@@ -11,8 +11,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-ben10-background/80 py-4 px-6 flex items-center justify-between border-b border-ben10/20">
-      <Link to="/" className="text-ben10 font-extrabold text-2xl font-['Bangers'] tracking-wider">$FREAK</Link>
+    <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-transparent py-4 px-6 flex items-center justify-between border-b border-ben10/20">
+      <Link to="/" className="text-ben10 font-extrabold text-4xl tracking-wider">$FREAK</Link>
       
       {/* Mobile menu button */}
       <button 
@@ -24,10 +24,10 @@ const Navbar = () => {
       
       {/* Desktop menu */}
       <div className="hidden md:flex items-center space-x-8">
-        <Link to="/" className="text-white font-semibold hover:text-ben10 transition-colors">Home</Link>
-        <Link to="/about" className="text-white font-semibold hover:text-ben10 transition-colors">About</Link>
-        <Link to="/tokenomics" className="text-white font-semibold hover:text-ben10 transition-colors">Tokenomics</Link>
-        <Link to="/roadmap" className="text-white font-semibold hover:text-ben10 transition-colors">Roadmap</Link>
+        <Link to="/" className="text-white tracking-wide text-2xl font-semibold hover:text-ben10 transition-colors">Home</Link>
+        <Link to="/about" className="text-white tracking-wide text-2xl font-semibold hover:text-ben10 transition-colors">About</Link>
+        <Link to="/tokenomics" className="text-white tracking-wide text-2xl font-semibold hover:text-ben10 transition-colors">Tokenomics</Link>
+        <Link to="/roadmap" className="text-white tracking-wide text-2xl font-semibold hover:text-ben10 transition-colors">Roadmap</Link>
       </div>
       
       {/* Desktop social/buy */}
@@ -41,7 +41,7 @@ const Navbar = () => {
           <Twitter size={20} className="text-white" />
         </a>
         <Link to="/buy" 
-          className="buy-button">
+          className="buy-button font2">
           BUY $FREAK
         </Link>
       </div>
@@ -50,10 +50,10 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="absolute top-full left-0 right-0 bg-ben10-background border-b border-ben10/20 py-4 md:hidden">
           <div className="flex flex-col space-y-4 px-6">
-            <Link to="/" className="text-white font-semibold hover:text-ben10 transition-colors" onClick={toggleMenu}>Home</Link>
-            <Link to="/about" className="text-white font-semibold hover:text-ben10 transition-colors" onClick={toggleMenu}>About</Link>
-            <Link to="/tokenomics" className="text-white font-semibold hover:text-ben10 transition-colors" onClick={toggleMenu}>Tokenomics</Link>
-            <Link to="/roadmap" className="text-white font-semibold hover:text-ben10 transition-colors" onClick={toggleMenu}>Roadmap</Link>
+            <Link to="/" className="text-white tracking-wide text-2xl font-semibold hover:text-ben10 transition-colors" onClick={toggleMenu}>Home</Link>
+            <Link to="/about" className="text-white tracking-wide text-2xl font-semibold hover:text-ben10 transition-colors" onClick={toggleMenu}>About</Link>
+            <Link to="/tokenomics" className="text-white tracking-wide text-2xl font-semibold hover:text-ben10 transition-colors" onClick={toggleMenu}>Tokenomics</Link>
+            <Link to="/roadmap" className="text-white tracking-wide text-2xl font-semibold hover:text-ben10 transition-colors" onClick={toggleMenu}>Roadmap</Link>
             
             <div className="flex items-center space-x-4 pt-2">
               <a href="https://t.me/freakcoin" target="_blank" rel="noopener noreferrer" 

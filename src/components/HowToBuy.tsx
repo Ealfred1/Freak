@@ -10,7 +10,7 @@ const HowToBuy = () => {
       <div className="absolute bottom-1/3 left-1/3 w-72 h-72 bg-ben10-dark bg-blur opacity-20"></div>
       
       <div className="container mx-auto px-4">
-        <h2 className="text-6xl font-['Rubik_Dirt'] text-ben10 text-center mb-16">
+        <h2 className="text-6xl font2 text-ben10 text-center mb-16">
           HOW TO BUY
         </h2>
         
@@ -22,7 +22,7 @@ const HowToBuy = () => {
                 <Wallet className="text-ben10-background w-8 h-8" />
               </div>
               <div>
-                <h3 className="font-['Permanent_Marker'] text-2xl text-ben10-light mb-2">SET UP A WALLET</h3>
+                <h3 className="font2 text-2xl text-ben10-light mb-2">SET UP A WALLET</h3>
                 <p className="text-white">
                   Download MetaMask or Trust Wallet to store your $FREAK tokens. These wallets are your gateway to the Ben10 universe on the blockchain.
                 </p>
@@ -39,7 +39,7 @@ const HowToBuy = () => {
                 <Banknote className="text-ben10-background w-8 h-8" />
               </div>
               <div>
-                <h3 className="font-['Permanent_Marker'] text-2xl text-ben10-light mb-2">PURCHASE ETH</h3>
+                <h3 className="font2 text-2xl text-ben10-light mb-2">PURCHASE ETH</h3>
                 <p className="text-white">
                   Buy Ethereum (ETH) from any major exchange like Coinbase, Binance, or Kraken. You'll need ETH to swap for $FREAK tokens.
                 </p>
@@ -56,7 +56,7 @@ const HowToBuy = () => {
                 <Link className="text-ben10-background w-8 h-8" />
               </div>
               <div>
-                <h3 className="font-['Permanent_Marker'] text-2xl text-ben10-light mb-2">CONNECT YOUR WALLET</h3>
+                <h3 className="font2 text-2xl text-ben10-light mb-2">CONNECT YOUR WALLET</h3>
                 <p className="text-white">
                   Connect your wallet to Uniswap or your preferred decentralized exchange. Make sure you're on the Ethereum network.
                 </p>
@@ -73,7 +73,7 @@ const HowToBuy = () => {
                 <ArrowRight className="text-ben10-background w-8 h-8" />
               </div>
               <div>
-                <h3 className="font-['Permanent_Marker'] text-2xl text-ben10-light mb-2">SWAP ETH FOR $FREAK</h3>
+                <h3 className="font2 text-2xl text-ben10-light mb-2">SWAP ETH FOR $FREAK</h3>
                 <p className="text-white">
                   Use Uniswap to swap your ETH for $FREAK. Paste the $FREAK contract address, set your slippage, and complete the swap to transform your portfolio!
                 </p>
@@ -87,7 +87,7 @@ const HowToBuy = () => {
       <div className="mt-20 bg-gradient-to-r from-ben10-dark to-ben10 py-4 overflow-hidden">
         <div className="flex animate-marquee whitespace-nowrap">
           {Array(20).fill(0).map((_, index) => (
-            <span key={index} className="mx-4 text-2xl font-['Permanent_Marker'] tracking-wide text-black">FREAK FREAK FREAK</span>
+            <span key={index} className="mx-2 text-2xl font2 tracking-wide text-black">$FREAK $FREAK $FREAK</span>
           ))}
         </div>
       </div>

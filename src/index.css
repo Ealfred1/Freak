@@ -51,11 +51,20 @@
 @layer base {
   * {
     @apply border-border;
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
   }
+
+  .font2 {
+    font-family: "Bangers", system-ui;
+  }
+
+
+  
 
   body {
     @apply bg-ben10-background text-white;
-    font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
   }
 
@@ -107,8 +116,8 @@
 }
 
 .ben10-glow {
-  animation: pulse 1.5s ease-in-out infinite;
-  filter: drop-shadow(0 0 12px #97f700);
+  /* animation: pulse 5s ease-in-out infinite; */
+  filter: drop-shadow(0 0 12px #000);
 }
 
 .hoverable-card {
@@ -143,10 +152,11 @@
   transition: all 0.3s ease;
   background: #97f700;
   color: #0a150a;
+  font-size: 16px;
+  
   font-weight: bold;
   border-radius: 8px;
   padding: 8px 16px;
-  font-family: 'Rubik_Dirt', cursive;
 }
 
 .buy-button::before {

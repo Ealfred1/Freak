@@ -12,14 +12,14 @@ const Tokenomics = () => {
         <div className="max-w-4xl mx-auto relative">
           {/* Total Supply */}
           <div className="tokenomics-header mb-8 p-4 mx-auto text-center animated-border bg-black/50 backdrop-blur-md rounded-md max-w-md">
-            <h3 className="font-['Rubik_Dirt'] text-white text-xl">TOTAL SUPPLY</h3>
-            <p className="text-ben10 text-3xl font-['Faster_One']">1,000,000,000 $FREAK</p>
+            <h3 className="font2 text-white text-xl">TOTAL SUPPLY</h3>
+            <p className="text-ben10 text-3xl font2">1,000,000,000 $FREAK</p>
           </div>
           
           {/* Ben 10 Character */}
           <div className="flex justify-center mb-6">
             <img 
-              src="/lovable-uploads/c28731e0-34e3-41c9-81dd-ce3dc878c1ed.png" 
+              src="/freak.png" 
               alt="Ben 10" 
               className="w-32 h-32 object-contain animate-float"
             />
@@ -28,31 +28,31 @@ const Tokenomics = () => {
           {/* Tokenomics Grid */}
           <div className="tokenomics-grid grid grid-cols-2 gap-4">
             {/* Top Left */}
-            <div className="tokenomics-card bg-black/40 backdrop-blur-md p-6 rounded-md border-2 border-ben10 notched-corner animate-pulse-glow">
-              <h3 className="text-4xl font-['Faster_One'] text-center text-ben10">15%</h3>
+            <div className="tokenomics-card bg-black/40 backdrop-blur-md p-6 rounded-md notched-corner animate-pulse-glow">
+              <h3 className="text-4xl font2 text-center text-ben10">15%</h3>
               <div className="w-full h-px bg-ben10 my-3"></div>
-              <p className="text-center font-['Rubik_Dirt'] text-white">BURN MECHANISM</p>
+              <p className="text-center font2 text-white">BURN MECHANISM</p>
             </div>
             
             {/* Top Right */}
-            <div className="tokenomics-card bg-black/40 backdrop-blur-md p-6 rounded-md border-2 border-ben10 notched-corner animate-pulse-glow">
-              <h3 className="text-4xl font-['Faster_One'] text-center text-ben10">15%</h3>
+            <div className="tokenomics-card bg-black/40 backdrop-blur-md p-6 rounded-md  notched-corner animate-pulse-glow">
+              <h3 className="text-4xl font2 text-center text-ben10">15%</h3>
               <div className="w-full h-px bg-ben10 my-3"></div>
-              <p className="text-center font-['Rubik_Dirt'] text-white">REDISTRIBUTION</p>
+              <p className="text-center font2 text-white">REDISTRIBUTION</p>
             </div>
             
             {/* Bottom Left */}
-            <div className="tokenomics-card bg-black/40 backdrop-blur-md p-6 rounded-md border-2 border-ben10 notched-corner animate-pulse-glow">
-              <h3 className="text-4xl font-['Faster_One'] text-center text-ben10">20,000</h3>
+            <div className="tokenomics-card bg-black/40 backdrop-blur-md p-6 rounded-md  notched-corner animate-pulse-glow">
+              <h3 className="text-4xl font2 text-center text-ben10">20,000</h3>
               <div className="w-full h-px bg-ben10 my-3"></div>
-              <p className="text-center font-['Rubik_Dirt'] text-white">LIQUIDITY POOL</p>
+              <p className="text-center font2 text-white">LIQUIDITY POOL</p>
             </div>
             
             {/* Bottom Right */}
-            <div className="tokenomics-card bg-black/40 backdrop-blur-md p-6 rounded-md border-2 border-ben10 notched-corner animate-pulse-glow">
-              <h3 className="text-4xl font-['Faster_One'] text-center text-ben10">5%</h3>
+            <div className="tokenomics-card bg-black/40 backdrop-blur-md p-6 rounded-md  notched-corner animate-pulse-glow">
+              <h3 className="text-4xl font2 text-center text-ben10">5%</h3>
               <div className="w-full h-px bg-ben10 my-3"></div>
-              <p className="text-center font-['Rubik_Dirt'] text-white">MARKETING</p>
+              <p className="text-center font2 text-white">MARKETING</p>
             </div>
           </div>
         </div>
@@ -64,7 +64,7 @@ const Tokenomics = () => {
         <div className="bg-gradient-to-r from-ben10-dark to-ben10 py-4 overflow-hidden">
           <div className="flex animate-marquee whitespace-nowrap">
             {Array(20).fill(0).map((_, index) => (
-              <span key={index} className="mx-4 text-2xl font-['Faster_One'] tracking-wide text-black">FREAK FREAK FREAK</span>
+              <span key={index} className="mx-4 text-2xl font2 tracking-wide text-black">FREAK FREAK FREAK</span>
             ))}
           </div>
         </div>
@@ -73,7 +73,7 @@ const Tokenomics = () => {
         <div className="bg-gradient-to-b from-ben10-dark to-ben10 py-4 overflow-hidden h-20 relative">
           <div className="absolute left-0 top-0 w-full animate-marquee-vertical whitespace-nowrap flex flex-col items-center">
             {Array(20).fill(0).map((_, index) => (
-              <span key={index} className="my-4 text-2xl font-['Faster_One'] tracking-wide text-black">FREAK FREAK FREAK</span>
+              <span key={index} className="my-4 text-2xl font2 tracking-wide text-black">FREAK FREAK FREAK</span>
             ))}
           </div>
         </div>

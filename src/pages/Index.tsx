@@ -21,8 +21,12 @@ const Index = () => {
 
   return (
     <div className="overflow-x-hidden bg-ben10-background">
-      <Navbar />
-      <Hero />
+      <div className="bg-cover bg-center bg-no-repeat w-full" style={{
+      backgroundImage: "url('/bg.png')"
+    }}>
+        <Navbar />
+        <Hero />
+      </div>
       <About />
       <HowToBuy />
       <Roadmap />

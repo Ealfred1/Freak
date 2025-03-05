@@ -121,8 +121,8 @@ export default {
 					'100%': { transform: 'scale(1)', opacity: '1' },
 				},
 				wiggle: {
-					'0%, 100%': { transform: 'rotate(-3deg)' },
-					'50%': { transform: 'rotate(3deg)' },
+					'0%, 100%': { transform: 'rotate(-2deg)' },
+					'50%': { transform: 'rotate(2deg)' },
 				},
 				blur: {
 					'0%': { filter: 'blur(5px)' },
