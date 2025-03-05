@@ -28,7 +28,7 @@ const Hero = () => {
         </div>
         
         {/* Glass blur card */}
-        <div className="glass-blur p-6 max-w-xl text-center mb-12">
+        <div className="glass-blur p-6 -translate-y-7 max-w-xl text-center mb-12">
           <p className="text-white text-xl font-['Bangers']">
             POWERED BY MEMES, FUELED BY CHAOS, BUILT FOR DEGENS!
           </p>

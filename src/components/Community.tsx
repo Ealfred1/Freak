@@ -6,12 +6,12 @@ const Community = () => {
   return (
     <div className="relative w-full py-24 overflow-hidden" 
          style={{ 
-           backgroundImage: `url('/lovable-uploads/ba036d8b-46d3-4b26-a67a-98c2ddd10821.png')`, 
+           backgroundImage: `url('/bg.png')`, 
            backgroundSize: 'cover',
            backgroundPosition: 'center'
          }}>
       <div className="container mx-auto px-4">
-        <h2 className="text-6xl font2 text-white text-center mb-12 drop-shadow-[4px_4px_0_rgba(0,0,0,0.3)]">
+        <h2 className="text-6xl font2 text-black text-center mb-12 drop-shadow-[4px_4px_0_rgba(0,0,0,0.3)]">
           JOIN THE FREAK COMMUNITY
         </h2>
         
@@ -28,7 +28,7 @@ const Community = () => {
         
         <div className="flex justify-center">
           <img 
-            src="/lovable-uploads/3ce6df62-6aaf-44fd-92c1-f5a522641c73.png" 
+            src="/freak2.png" 
             alt="Ben 10" 
             className="w-40 h-40 md:w-60 md:h-60 object-contain animate-float"
           />
