@@ -36,7 +36,7 @@ const Navbar = () => {
           className="hoverable-icon p-3">
           <Send size={20} className="text-white" />
         </a>
-        <a href="https://x.com/freakonsol_" target="_blank" rel="noopener noreferrer"
+        <a href="https://x.com/freakonsol__" target="_blank" rel="noopener noreferrer"
           className="hoverable-icon p-3">
           <Twitter size={20} className="text-white" />
         </a>
@@ -60,7 +60,7 @@ const Navbar = () => {
                 className="hoverable-icon p-3">
                 <Send size={20} className="text-white" />
               </a>
-              <a href="https://x.com/freakonsol_" target="_blank" rel="noopener noreferrer"
+              <a href="https://x.com/freakonsol__" target="_blank" rel="noopener noreferrer"
                 className="hoverable-icon p-3">
                 <Twitter size={20} className="text-white" />
               </a>
