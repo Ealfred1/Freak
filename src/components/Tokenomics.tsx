@@ -52,7 +52,7 @@ const Tokenomics = () => {
             <div className="tokenomics-card bg-black/40 backdrop-blur-md p-6 rounded-md  notched-corner animate-pulse-glow">
               <h3 className="text-4xl font2 text-center text-ben10">20%</h3>
               <div className="w-full h-px bg-ben10 my-3"></div>
-              <p className="text-center font2 text-white">MARKETING</p>
+              <p className="text-center font2 text-white">TEAM</p>
             </div>
           </div>
         </div>
