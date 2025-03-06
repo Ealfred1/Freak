@@ -13,7 +13,7 @@ const Tokenomics = () => {
           {/* Total Supply */}
           <div className="tokenomics-header mb-8 p-4 mx-auto text-center animated-border bg-black/50 backdrop-blur-md rounded-md max-w-md">
             <h3 className="font2 text-white text-xl">TOTAL SUPPLY</h3>
-            <p className="text-ben10 text-3xl font2">1,000,000,000 $FREAK</p>
+            <p className="text-ben10 text-3xl font2">500,000,000 $FREAK</p>
           </div>
           
           {/* Ben 10 Character */}
@@ -29,28 +29,28 @@ const Tokenomics = () => {
           <div className="tokenomics-grid grid grid-cols-2 gap-4">
             {/* Top Left */}
             <div className="tokenomics-card bg-black/40 backdrop-blur-md p-6 rounded-md notched-corner animate-pulse-glow">
-              <h3 className="text-4xl font2 text-center text-ben10">15%</h3>
+              <h3 className="text-4xl font2 text-center text-ben10">10%</h3>
               <div className="w-full h-px bg-ben10 my-3"></div>
-              <p className="text-center font2 text-white">BURN MECHANISM</p>
+              <p className="text-center font2 text-white">MARKETING</p>
             </div>
             
             {/* Top Right */}
             <div className="tokenomics-card bg-black/40 backdrop-blur-md p-6 rounded-md  notched-corner animate-pulse-glow">
-              <h3 className="text-4xl font2 text-center text-ben10">15%</h3>
+              <h3 className="text-4xl font2 text-center text-ben10">10%</h3>
               <div className="w-full h-px bg-ben10 my-3"></div>
-              <p className="text-center font2 text-white">REDISTRIBUTION</p>
+              <p className="text-center font2 text-white">Community</p>
             </div>
             
             {/* Bottom Left */}
             <div className="tokenomics-card bg-black/40 backdrop-blur-md p-6 rounded-md  notched-corner animate-pulse-glow">
-              <h3 className="text-4xl font2 text-center text-ben10">20,000</h3>
+              <h3 className="text-4xl font2 text-center text-ben10">60%</h3>
               <div className="w-full h-px bg-ben10 my-3"></div>
               <p className="text-center font2 text-white">LIQUIDITY POOL</p>
             </div>
             
             {/* Bottom Right */}
             <div className="tokenomics-card bg-black/40 backdrop-blur-md p-6 rounded-md  notched-corner animate-pulse-glow">
-              <h3 className="text-4xl font2 text-center text-ben10">5%</h3>
+              <h3 className="text-4xl font2 text-center text-ben10">20%</h3>
               <div className="w-full h-px bg-ben10 my-3"></div>
               <p className="text-center font2 text-white">MARKETING</p>
             </div>
