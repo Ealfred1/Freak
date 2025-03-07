@@ -8,6 +8,7 @@ import Roadmap from '@/components/Roadmap';
 import Tokenomics from '@/components/Tokenomics';
 import Community from '@/components/Community';
 import CrossMarquee from '@/components/CrossMarquee';
+import LinksSection from "@/components/LinkSection"
 
 const Index = () => {
   useEffect(() => {
@@ -30,6 +31,7 @@ const Index = () => {
       <About />
       <HowToBuy />
       <Roadmap />
+      <LinksSection />
       <Tokenomics />
       <CrossMarquee />
       <Community />
