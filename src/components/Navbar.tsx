@@ -32,11 +32,11 @@ const Navbar = () => {
       
       {/* Desktop social/buy */}
       <div className="hidden md:flex items-center space-x-4">
-        <a href="https://t.me/freakcoin" target="_blank" rel="noopener noreferrer" 
+        <a href="https://t.me/freakcn" target="_blank" rel="noopener noreferrer" 
           className="hoverable-icon p-3">
           <Send size={20} className="text-white" />
         </a>
-        <a href="https://twitter.com/freakcoin" target="_blank" rel="noopener noreferrer"
+        <a href="https://x.com/freakonsol__" target="_blank" rel="noopener noreferrer"
           className="hoverable-icon p-3">
           <Twitter size={20} className="text-white" />
         </a>
@@ -56,11 +56,11 @@ const Navbar = () => {
             <Link to="/roadmap" className="text-white tracking-wide text-2xl font-semibold hover:text-ben10 transition-colors" onClick={toggleMenu}>Roadmap</Link>
             
             <div className="flex items-center space-x-4 pt-2">
-              <a href="https://t.me/freakcoin" target="_blank" rel="noopener noreferrer" 
+              <a href="https://t.me/freakcn" target="_blank" rel="noopener noreferrer" 
                 className="hoverable-icon p-3">
                 <Send size={20} className="text-white" />
               </a>
-              <a href="https://twitter.com/freakcoin" target="_blank" rel="noopener noreferrer"
+              <a href="https://x.com/freakonsol__" target="_blank" rel="noopener noreferrer"
                 className="hoverable-icon p-3">
                 <Twitter size={20} className="text-white" />
               </a>

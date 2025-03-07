@@ -17,10 +17,10 @@ const Community = () => {
         
         <div className="flex justify-center mb-8">
           <div className="flex gap-4">
-            <a href="#" className="bg-black p-4 rounded-full hover:bg-ben10 transition-colors hover:scale-110 transform duration-300">
+            <a href="https://t.me/freakcn" className="bg-black p-4 rounded-full hover:bg-ben10 transition-colors hover:scale-110 transform duration-300">
               <Send className="text-white w-6 h-6" />
             </a>
-            <a href="#" className="bg-white p-4 rounded-full hover:bg-ben10 transition-colors hover:scale-110 transform duration-300">
+            <a href="https://x.com/freakonsol__" className="bg-white p-4 rounded-full hover:bg-ben10 transition-colors hover:scale-110 transform duration-300">
               <Twitter className="text-black w-6 h-6" />
             </a>
           </div>

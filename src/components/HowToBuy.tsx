@@ -24,7 +24,7 @@ const HowToBuy = () => {
               <div>
                 <h3 className="font2 text-2xl text-ben10-light mb-2">SET UP A WALLET</h3>
                 <p className="text-white">
-                  Download MetaMask or Trust Wallet to store your $FREAK tokens. These wallets are your gateway to the Ben10 universe on the blockchain.
+                  Download Nest wallet or Phantom wallet to store your $FREAK tokens. These wallets are your gateway to the Ben10 universe on the blockchain.
                 </p>
               </div>
             </div>
@@ -39,9 +39,9 @@ const HowToBuy = () => {
                 <Banknote className="text-ben10-background w-8 h-8" />
               </div>
               <div>
-                <h3 className="font2 text-2xl text-ben10-light mb-2">PURCHASE ETH</h3>
+                <h3 className="font2 text-2xl text-ben10-light mb-2">PURCHASE SOL</h3>
                 <p className="text-white">
-                  Buy Ethereum (ETH) from any major exchange like Coinbase, Binance, or Kraken. You'll need ETH to swap for $FREAK tokens.
+                  Buy Solana (SOL) from any major exchange like Coinbase, Binance, or Kraken. You'll need SOL to swap for $FREAK tokens.
                 </p>
               </div>
             </div>
@@ -58,7 +58,7 @@ const HowToBuy = () => {
               <div>
                 <h3 className="font2 text-2xl text-ben10-light mb-2">CONNECT YOUR WALLET</h3>
                 <p className="text-white">
-                  Connect your wallet to Uniswap or your preferred decentralized exchange. Make sure you're on the Ethereum network.
+                  Connect your wallet to Raydium or your preferred swap protocol.
                 </p>
               </div>
             </div>
@@ -73,9 +73,9 @@ const HowToBuy = () => {
                 <ArrowRight className="text-ben10-background w-8 h-8" />
               </div>
               <div>
-                <h3 className="font2 text-2xl text-ben10-light mb-2">SWAP ETH FOR $FREAK</h3>
+                <h3 className="font2 text-2xl text-ben10-light mb-2">SWAP SOL FOR $FREAK</h3>
                 <p className="text-white">
-                  Use Uniswap to swap your ETH for $FREAK. Paste the $FREAK contract address, set your slippage, and complete the swap to transform your portfolio!
+                  Use Raydium to swap your SOL for $FREAK. Paste the $FREAK contract address, set your slippage, and complete the swap to transform your portfolio!
                 </p>
               </div>
             </div>
