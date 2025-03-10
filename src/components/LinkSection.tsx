@@ -14,7 +14,7 @@ const LinksSection = () => {
     {
       id: 'jup',
       title: 'JUPITER',
-      value: 'https://jup.ag/swap/SOL-FREAK',
+      value: 'https://jup.ag/swap/SOL-6SYG64GyL1uRzgyQmYHqervbcNy4jfKxWYfdzndppump',
       icon: ExternalLink
     },
     {
