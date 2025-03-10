@@ -40,10 +40,10 @@ const Navbar = () => {
           className="hoverable-icon p-3">
           <Twitter size={20} className="text-white" />
         </a>
-        <Link to="/buy" 
+        <a href="https://raydium.io/swap/?inputMint=sol&outputMint=D5BfMMfpafHf4EUk26rnSF6dzmCvh4coQQeixnVyipX8" 
           className="buy-button font2">
           BUY $FREAK
-        </Link>
+        </a>
       </div>
       
       {/* Mobile menu */}
