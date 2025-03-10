@@ -8,7 +8,7 @@ const LinksSection = () => {
     {
       id: 'ca',
       title: 'CONTRACT ADDRESS',
-      value: '0x123456789abcdef123456789abcdef123456789', // Replace with actual CA
+      value: 'D5BfMMfpafHf4EUk26rnSF6dzmCvh4coQQeixnVyipX8', // Replace with actual CA
       icon: ExternalLink
     },
     {
@@ -20,13 +20,13 @@ const LinksSection = () => {
     {
       id: 'dex',
       title: 'DEX SCREENER',
-      value: 'https://dexscreener.com/solana/freak',
+      value: 'https://dexscreener.com/solana/cjqqmu5ug9qcbdnthcyyvtnc26aot9sf7mdmazpwncqh',
       icon: ExternalLink
     },
     {
       id: 'raydium',
       title: 'RAYDIUM',
-      value: 'https://raydium.io/swap/?inputCurrency=sol&outputCurrency=FREAK',
+      value: 'https://raydium.io/swap/?inputMint=sol&outputMint=D5BfMMfpafHf4EUk26rnSF6dzmCvh4coQQeixnVyipX8',
       icon: ExternalLink
     }
   ];
@@ -80,7 +80,7 @@ const LinksSection = () => {
                     </button>
                     
                     <a 
-                      href={link.id === 'ca' ? `https://etherscan.io/address/${link.value}` : link.value}
+                      href={link.id === 'ca' ? `https://dexscreener.com/solana/cjqqmu5ug9qcbdnthcyyvtnc26aot9sf7mdmazpwncqh` : link.value}
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="ml-2 p-2 bg-ben10/20 hover:bg-ben10/40 rounded-md transition-colors duration-300"
